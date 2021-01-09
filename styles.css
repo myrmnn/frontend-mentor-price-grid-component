@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  background-color: #e5eff5;
+}
+
+.main {
+  width: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.join {
+  background-color: white;
+}
+
+.join__title {
+  color: #2ab2af;
+}
+
+.join__subtitle {
+  color: #c0df34;
+}
+
+.join__para {
+  color: #98a6bd;
+}
+
+.subscribe {
+  background-color: #2ab2af;
+}
+
+.subscribe__title, .subscribe__price, .subscribe__para {
+  color: white;
+}
+
+.subscribe__btn {
+  background-color: #c0df34;
+  padding: 1em;
+  border: none;
+  border-radius: 10px;
+}
+
+.testimonials {
+  background-color: #66dbd9;
+}
+/*# sourceMappingURL=styles.css.map */

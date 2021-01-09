@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+$Cyan: hsl(179, 62%, 43%);
+$BrightYellow: hsl(71, 73%, 54%);
+$LightGray: hsl(204, 43%, 93%);
+$GrayishBlue: hsl(218, 22%, 67%);
+$font: "Karla", sans-serif;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  background-color: $LightGray;
+}
+
+.main {
+  width: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.join {
+  background-color: white;
+
+  &__title {
+    color: $Cyan;
+  }
+
+  &__subtitle {
+    color: $BrightYellow;
+  }
+
+  &__para {
+    color: $GrayishBlue;
+  }
+}
+
+.subscribe {
+  background-color: $Cyan;
+  &__title,
+  &__price,
+  &__para {
+    color: white;
+  }
+  &__btn {
+    background-color: $BrightYellow;
+    padding: 1em;
+    border: none;
+    border-radius: 10px;
+  }
+}
+
+.testimonials {
+  background-color: lighten($Cyan, 20%);
+}
